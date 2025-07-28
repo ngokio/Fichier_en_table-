@@ -1,0 +1,15 @@
+# 🚗 Electric Vehicle Charging Stations Loader
+
+Ce projet permet de **charger un fichier CSV** contenant des données sur des stations de recharge de véhicules électriques dans une base de données **PostgreSQL**, en utilisant **Python** et **psycopg2**.
+
+---
+
+## 📦 Structure du projet
+.
+├── app.py                 # Script principal : lit le CSV et insère les données dans PostgreSQL
+├── config.py                  # Contient la fonction pour lire les variables d’environnement (connexion à la base)
+├── Electric_Vehicle_Charging_Stations.csv  # Fichier de données source à charger
+├── .env                       # Stocke les identifiants sensibles (non versionné)
+├── .gitignore                 # Liste des fichiers à exclure de Git (.env, __pycache__)
+
+└── README.md                  # Fichier de documentation du projet (ce fichier)
