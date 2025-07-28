@@ -9,6 +9,7 @@ Ce projet permet de **charger un fichier CSV** contenant des données sur des st
 ├── app.py                 # Script principal : lit le CSV et insère les données dans PostgreSQL
 ├── config.py                  # Contient la fonction pour lire les variables d’environnement (connexion à la base)
 ├── Electric_Vehicle_Charging_Stations.csv  # Fichier de données source à charger
+├── queries.py                           # Contient toutes les requêtes SQL (CREATE, INSERT, DROP, etc.)
 ├── .env                       # Stocke les identifiants sensibles (non versionné)
 ├── .gitignore                 # Liste des fichiers à exclure de Git (.env, __pycache__)
 
