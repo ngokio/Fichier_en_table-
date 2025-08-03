@@ -20,7 +20,7 @@ class DataLoader:
 
                         for row in reader:
                             cleaned_row = tuple(None if val == 'NONE' else val for val in row)
-                            cur.execute(QUERY_INSERT, cleaned_row)
+                            cur.execute(QUERY_INSERT_INTO, cleaned_row)
 
                 conn.commit()
             print("✅ Import terminé avec succès.")
