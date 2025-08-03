@@ -1,6 +1,6 @@
 import psycopg2
 import csv
-from sql_queries import QUERY_CREATE_TABLE, QUERY_DROP_TABLE, QUERY_INSERT
+from sql_queries import QUERY_CREATE_TABLE, QUERY_DROP_TABLE, QUERY_INSERT_INTO
 
 class DataLoader:
     def __init__(self, db_config, csv_file):
